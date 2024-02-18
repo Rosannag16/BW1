@@ -1,0 +1,399 @@
+/* INDEX */
+
+/* GENERAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 60px;
+}
+
+.mg-0auto {
+    margin: 0 auto;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+/* HEADER */
+
+
+header {
+    height: 120px;
+}
+
+header img {
+    width: 200px;
+    padding: 50px 200px;
+}
+
+/* MAIN */
+
+main {
+    padding: 10px 200px;
+    width: 70%;
+}
+
+/* MAIN_TITOLO */
+
+#titolo div {
+    line-height: 0.8;
+    width: 450px;
+
+}
+
+#titolo div h1 {
+    font-weight: 400;
+    font-size: 4.5rem;
+    margin-top: 20px;
+}
+
+/* MAIN_ISTRUZIONI */
+
+#istruzioni {
+    width: 45%;
+}
+
+#istruzioni h3,
+.askTotal,
+#required {
+    color: #d20094;
+}
+
+#istruzioni h3 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+}
+
+#istruzioni p {
+
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+}
+
+#istruzioni ul {
+    margin-bottom: 80px;
+}
+
+#istruzioni ul li {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+#form div label {
+    font-weight: 700;
+}
+
+#btnPro,
+#btnFeedback {
+    width: 100px;
+    background-color: #00ffff;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin-left: 270px;
+    font-weight: bold;
+    box-shadow: 0px 0px 55px 0px rgba(0, 255, 255, 0.49);
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+#required {
+    margin: 0;
+    font-size: 0.7em;
+}
+
+#form {
+    width: 100%;
+}
+
+/* RISULTATO MAIN */
+
+.risultato_header {
+    text-align: center;
+}
+
+.risultato_header h1 {
+    margin: 0;
+}
+
+.risultato_header h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+#correct {
+    text-align: left;
+}
+
+#wrong {
+    text-align: right;
+}
+
+#correct,
+#wrong {
+    width: 220px;
+    height: 150px;
+    display: inline-block;
+    line-height: 1.1;
+    font-family: 'Outfit', sans-serif;
+}
+
+#grafico {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 0 71px;
+}
+
+#correct,
+#wrong,
+#grafico {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.risultato_main div h3,
+.risultato_main div p {
+    margin: 0;
+}
+
+.risultato {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+
+.risultato_main {
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.risultato_footer {
+    padding: 50px;
+    padding-top: 0;
+}
+
+.risultato_footer input {
+    padding: 15px 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#scritteGrafico>* {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#scritteGrafico {
+    position: relative;
+    top: -226px;
+    margin: 0 auto;
+
+}
+
+#scritteGrafico h4:nth-child(2) {
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+
+#scritteGrafico p {
+    font-size: 0.7rem;
+    width: 145px;
+    margin: 0 auto;
+}
+
+.risultato_footer input {
+    cursor: pointer;
+}
+
+
+/* DOMANDE */
+
+.div2Ask {
+    width: 1000px;
+    margin-top: 100px;
+}
+
+.div2Ask h1 {
+    font-size: 40px;
+}
+
+.div3ask {
+    width: 100%;
+}
+
+.btnAsk {
+    width: 450px;
+    height: 75px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnAsk:active {
+    background-color: #d20094;
+}
+
+.div4Ask {
+
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.div4Ask h4 {
+    font-size: 12px;
+    display: inline;
+}
+
+#clock {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    position: relative;
+}
+
+#clock div {
+    position: absolute;
+    transform: translate(500px, 50px);
+}
+
+#clockDiv {
+    width: 150px;
+    height: 150px;
+    display: inline-block
+}
+
+#scritteTimer {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: -45px;
+    left: -105px;
+    width: 50px;
+
+}
+
+#scritteTimer p {
+    line-height: 1;
+    font-size: 0.5rem;
+
+    margin: 0;
+}
+
+
+#scritteTimer #documentSecondi {
+    font-size: 2.5rem;
+
+    animation: shine 2s forwards;
+
+}
+
+#containerClock {
+
+    width: 250px;
+    vertical-align: middle;
+    position: absolute;
+    top: 40px;
+    left: 62%
+}
+
+
+/* FEEDBACK */
+
+
+/* CONTENITORE CON SCRITTE */
+
+#mainFeedback {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#mainP {
+    width: 550px;
+    margin: auto;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    margin-top: 30px;
+}
+
+/* STELLE */
+
+.stelle {
+    margin-top: 30px;
+}
+
+
+/* INPUT */
+
+#commentoUtente {
+    background-color: transparent;
+    color: white;
+    width: 650px;
+    padding: 15px;
+    padding-left: 30px;
+    border: none;
+    border-bottom: 1px solid #d20094;
+    outline: none;
+}
+
+/* BUTTON */
+
+#btnFeedback {
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+footer {
+    width: 50%;
+}
+
+.testoRingraziamento {
+    text-align: center;
+    color: #00ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1050px;
+}

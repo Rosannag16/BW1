@@ -1,0 +1,27 @@
+body{
+    width: 2000px;
+    margin: 0 auto;
+}
+
+#graficoRisultatoDomande {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border: 2px solid green;
+    margin: 0 auto;
+}
+
+#contenitoreRisposta {
+    border: 1px solid;
+    margin: 30px auto
+}
+
+#contenitoreRisposta div {
+    display: block;
+    margin: 30px;
+}
+
+ #contenitoreRisposta div p {
+    display: inline;
+}
+

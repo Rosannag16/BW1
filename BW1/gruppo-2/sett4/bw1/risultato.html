@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/risultato.css">
+    <title>Epicode - Risultato</title>
+<link rel="stylesheet" href="/s9q8jypf5KBjY_MF"/></head>
+
+<body>
+    <header>
+        <img src="assets/img/epicode_logo.png" alt="Logo">
+    </header>
+    <main class="mg-0auto">
+        <div class="risultato">
+            <div class="risultato_header">
+                <h1>Results</h1>
+                <h2>The summary of your answers:</h2>
+            </div>
+
+            <div class="risultato_main">
+                <div id="correct">
+                    <h3>Correct <span id="giuste">66.7%</span></h3>
+                    <p></p>
+                </div>
+                <div id="grafico">
+                    <div id="graficoDiv">
+                        <canvas id="graficoCanvas"> </canvas>
+                    </div>
+                    <div id="scritteGrafico">
+                        <h4></h4>
+                        <h4 id="scritteGrafico_span"></h4>
+                        
+                        <p></p>
+                    </div>
+                </div>
+                <div id="wrong">
+                    <h3>Wrong <span id="sbagliate">33.7%</span></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="risultato_footer">
+                <input type="button" value="RATE US">
+            </div>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+    <script src="assets/js/risultato.js"></script>
+</body>
+
+</html>

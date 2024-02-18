@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Epicode quiz</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/epicode_logo.png" alt="Logo">
+    </header>
+    <main>
+        <div id="titolo">
+            <div>
+                <h1>Welcome to
+                    <b>your exam</b>
+                </h1>
+            </div> 
+        </div>
+
+        <section id="istruzioni">
+            <h3>Instructions</h3>
+            <p>We don't expect most engineers to know the answer to all of these questions, so don't worry if you're
+                unsure of a few of them</p>
+            <ul>
+                <li>Each question is <strong>timed</strong> and can only be <strong>answered</strong>.</li>
+                <li>Changing browser tab or opening other windows will <strong>invalidate the quesiton</strong>.</li>
+                <li>This exam will take approx. <strong>0-5 minutes</strong>.</li>
+            </ul>
+            
+        </section>
+
+        <form id="form">
+            <div>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">I promise to answer myself without help from anyone</label>
+                <button type="button" id="btnPro">PROCEED</button>
+                <p id="required"></p>
+            </div>
+        </form>
+    </main>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
